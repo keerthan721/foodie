@@ -13,25 +13,19 @@ The **Foodie App** is a simple web-based food ordering system designed for educa
 - ❌ No payment or commission system (for academic use only)
 
 ---
-
-## 📁 Folder Structure
+📁 Folder Structure
 foodie-app/
-│
-├── index.html # User homepage
-├── admin.html # Admin dashboard
-├── style.css # Stylesheet
-├── script.js # JavaScript functionality
-├── images/ # All image assets
-├── backend/ # (Optional) Server-side scripts (PHP / Node.js)
-├── data/ # Sample data (JSON or DB scripts)
-├── README.md # Project overview
-└── .gitignore # Files/folders to exclude (optional)
-
-- **Frontend**: HTML, CSS, JavaScript  
-- **Backend**:  Node.js   
-- **Database**: MongoDB  
-
----
+├── public/
+│   ├── index.html        # User homepage
+│   ├── signup.html       # Signup page
+│   ├── login.html        # Login page
+│   ├── adminpage.html    # Admin Dashboard
+│   ├── style.css         # Stylesheet
+│   ├── script.js         # JavaScript functionality
+│   └── images/           # Image assets
+├── server.js             # Node.js Backend Server
+├── package.json          # Node dependencies
+└── README.md
 
 ## 📦 How to Run the Project
 
